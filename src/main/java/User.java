@@ -1,5 +1,7 @@
+package company;
+
 /**
- * Created by Kaczmarczyk on 2020-04-03.
+ * Created by Kaczmarczyk on 2020-05-22.
  */
 public class User {
 
@@ -29,11 +31,11 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "company.User{" +
                 "id=" + id +
                 ", login='" + login + '\'' +
                 ", password='" + password + '\'' +
                 '}';
     }
 
-}
+
