@@ -1,5 +1,7 @@
+package company;
+
 /**
- * Created by Kaczmarczyk on 2020-04-03.
+ * Created by Kaczmarczyk on 2020-05-22.
  */
 public class Product {
 
@@ -27,7 +29,7 @@ public class Product {
         this.productCount = productCount;
     }
 
-    public long getId(){
+    public Long getId(){
         return id;
     }
 
@@ -53,7 +55,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{" +
+        return "company.Product{" +
                 "id=" + id +
                 ", productName='" + productName + '\'' +
                 ", price=" + price +
